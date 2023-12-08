@@ -1,15 +1,26 @@
 <template>
-
+<the-header></the-header>
  <router-view> </router-view>
 
  
 </template>
 
-<!-- <script>
+<script>
 
+import TheHeader from './components/layout/TheHeader.vue'
 
 export default {
-  name: 'App',
+ components:{
+    TheHeader
+ }
 }
-</script> -->
+</script>
+<style>
+
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+</style>
 
